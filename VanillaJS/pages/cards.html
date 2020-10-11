@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <link rel="stylesheet" href="../css/cards.css" />
+  </head>
+  <body>
+    <div id="spinner"></div>
+    <header>
+      <div class="header">
+        <h3 id="header"></h3>
+        <div class="title">
+          <h1>Cards List</h1>
+        </div>
+      </div>
+      <div class="input">
+        <div id="searchBar">
+          <input
+            type="text"
+            name="searchField"
+            id="searchField"
+            placeholder="Serch by name,text"
+          />
+        </div>
+      </div>
+      <div id="filters">
+        <span>Filters:</span>
+        <div id="order">
+          <select id="nameOrder">
+            <option disabled selected>Sort by name</option>
+            <option value="ascending">Ascending</option>
+            <option value="descending">Descending</option>
+          </select>
+        </div>
+        <div id="selectType">
+          <select id="types"></select>
+        </div>
+        <div id="selectCol">
+          <select id="colors"></select>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container"></div>
+    </main>
+
+    <script src="../js/cards.js"></script>
+  </body>
+</html>
